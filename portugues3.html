@@ -24,10 +24,10 @@
 
         <div class="menu">
             <ul>
-                <li><a href="#">Institucional</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contatos</a></li>
-                <li><a href="#">Como Comprar</a></li>
+                <li><a href="#institucional">Institucional</a></li>
+                <li><a href="#produto">Produtos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#comoComprar">Como Comprar</a></li>
                 <li><a href="#">Galeria</a></li>
             </ul>
         </div>
@@ -38,7 +38,7 @@
                 <img src="./Detalhes2.gif" alt="">
             </div>
            <div class="Detalhe">
-                <h1 class="title">INSTITUCIONAL</h1>
+                <h1 class="title" id="institucional">INSTITUCIONAL</h1>
                 <p>Starker Biorobotik apresenta: Trium
 
                         <p>Liberdade em movimento. Tecnologia com alma humana. <br></p>
@@ -60,22 +60,30 @@
         </div>
         <div class="part2">
             <div class="video2">
-                <img src="./Lançamento.gif" alt="">
+                <img src="./Detalhes3.gif" alt="">
             </div>
-            <div class="Lancamento">
+            <div class="Lancamento" id="produto">
                 <ul>
                     <li><H2>CADEIRA ROBÓTICA</H2><p class="lançamentoP">Unidade de auxílio a locomoção podendo ser em pé ou sentado.</p></li>
                     <li><h2>ROBÔ AGRÍCOLA</h2><p class="lançamentoP">Para cultura do algodão. Unidade autônoma com inteligência artificial (em desenvolvimento, lançamento previsto para o primeiro semestre de 2026).</p></li>
                     <li><h2>BULLDOG</h2><p class="lançamentoP">(projeto) Unidade de combate com inteligência artificial.</p></li>
                 </ul>
             </div>
-                <ul class="contatos">
-                    <li><a href="#" class="botao1">CONTATOS</a></li>
-                </ul>
-                <ul class="comocomprar">
-                    <li><a href="#" class="botao2">COMO COMPRAR</a></li>
-                </ul>
+            <div class="">
+                <button class="accordion1" id="contatos">CONTATOS</button>
+                <div class="panel1">
+                <p class="explicativo">Lorem ipsum...</p>
+                </div>
+                
+                <button class="accordion"  id="comoComprar">COMO COMPRAR</button>
+                <div class="panel">
+                <p class="explicativo">Lorem ipsum...</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
+<footer></footer>
+
+<script src="./script.js"></script>
 </html>
