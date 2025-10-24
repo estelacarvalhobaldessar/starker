@@ -45,7 +45,7 @@ header .flags ul li a img{
 header .menu{
     margin: 0px auto;
     height: 40px;
-    width: 550px;
+    width: 640px;
     padding-top: 255px;
 }
 
@@ -54,7 +54,7 @@ header .menu ul li {
     font-size: 20px;
     float: left;
     list-style-type: none;
-    margin-left: 12px;
+    margin-left: 25px;
     color: white;
 }
 header .menu ul li a{
@@ -285,7 +285,60 @@ header .menu ul li a:hover{
 }
  
   footer{
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color: #3B3737;
 }
+footer .part4{
+  height: 350px;
+  width: 200px;
+  margin-top: 50px;
+}
+footer .part4 ul li{
+  height: 50px;
+  width: 200px;
+  display: block;
+  clear: both;
+  margin-top:10px;
+  border: 1px solid red;
+}
+footer .part4 ul li a{
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+  border: 1px solid yellow;
+}
+footer .part4 ul li span{
+  width: 148px;
+  height: 50px;
+  display: block;
+  float: left;
+  padding-top: 15px;
+  border: 1px solid green;
+}
+footer .part4 ul li #whats{
+  background-image: url('whats.webp');
+  background-size: contain;
+}
+footer .part4 ul li #instagram{
+  background-image: url('insta.png');
+  background-size: contain;
+}
+/*
+#whats{
+  height: 50px;
+  width: 55px;
+  display: block;
+  float: left;
+  background-image: url('whats.webp');
+  background-size: contain;
+}
+#instagram{
+  height: 32px;
+  width: 32px;
+  display: block;
+  float: left;
+  background-image: url('./insta.png');
+  background-size: contain;
+}/*
