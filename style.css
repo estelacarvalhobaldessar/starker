@@ -260,7 +260,7 @@ header .menu ul li a:hover{
 .tamanhoimg{
     width: 350px;
     height: 500px;
-    margin-left: 28px;
+    margin-left: 15px;
     display: flex;
     justify-content: center;
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
@@ -396,5 +396,8 @@ footer .part4 ul li span{
   width: 400px;
   height: 550px;
   margin-left: 15%;
+}
+.lancamentoP {
+  line-height: 30px;
 }
 }
